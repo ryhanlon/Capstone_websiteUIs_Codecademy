@@ -1,0 +1,21 @@
+
+/* lick from codecademy class */
+
+.searchTerm:focus{
+    color: midnightblue;
+}
+
+.searchButton {
+    position: absolute;
+    right: -10px;
+    top: 8px;
+    width: auto;
+    height: 36px;
+    border: 1px solid midnightblue;
+    background: midnightblue;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}

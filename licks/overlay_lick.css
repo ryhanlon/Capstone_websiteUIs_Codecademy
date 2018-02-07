@@ -1,0 +1,16 @@
+/* overlay lick gotten from codecedemy class */
+
+.overlay:before {
+    content: " ";
+    z-index: 1;
+    display: block;
+    position: absolute;
+    height: 450px;
+    top: 40px;
+    left: 5%;
+    width: 90%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.overlay * {
+    position: relative; /* Makes elements display above overlay. */
+}
