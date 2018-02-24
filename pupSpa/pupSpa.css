@@ -5,14 +5,17 @@ body {
 }
 
 .grid {
-
+	display: grid;
+  grid-template: 5% 30% 10% 30% 20% 5% / repeat(6, 1fr);
+  grid-column-gap: 20px;
 }
 
 header {
   background-color: #ffffff;
   color: #dc6363;
   padding-top: 10px;
-
+	grid-column-start: 1;
+  grid-column-end: 7;
 }
 
 .banner {
@@ -23,7 +26,8 @@ header {
   font-weight: 300;
   letter-spacing: 3.7px;
   color: #ffffff;
-
+	grid-column-start: 1;
+  grid-column-end: 7;
 }
 
 img {
@@ -33,7 +37,8 @@ img {
 .about {
   background-color: #f0f0f0;
   padding-bottom: 20px;
-
+	grid-column-start: 1;
+  grid-column-end: 7;
 }
 
 .text {
@@ -63,15 +68,15 @@ img {
 }
 
 .address {
-
+	grid-column: 1 / span 2;
 }
 
 .hours {
-
+	grid-column: 3 / span 2;
 }
 
 .call-us {
-
+	grid-column: 5 / span 2;
 }
 
 .marker {
@@ -102,11 +107,11 @@ img {
 }
 
 .one {
-
+	grid-column: 1 / span 3;
 }
 
 .two {
-
+	grid-column: 4 / span 3;
 }
 
 footer {
@@ -116,14 +121,15 @@ footer {
   font-size: 14px;
   font-weight: 300;
   letter-spacing: 0.4px;
-
+	grid-column-start: 1;
+  grid-column-end: 7;
 }
 
 
 @media(max-width: 600px){
 
   .grid {
-
+		grid-template-columns: 100%;
   }
 
   header {
