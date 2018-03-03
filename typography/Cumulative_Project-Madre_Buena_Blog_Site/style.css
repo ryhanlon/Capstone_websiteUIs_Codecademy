@@ -5,6 +5,12 @@
   4. Module Styles
   5. Component Styles
   6. Page Styles
+
+  **** font notes ****
+  font-family: 'Playfair Display', Georgia, serif;
+  font-family: 'Barlow Condensed', Arial, sans-serif;
+  font-family: 'Raleway', Arial, sans-serif;
+
 ======================================== */
 
 /* 1. Global Styles
@@ -42,7 +48,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: serif;
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-style: italic;
   font-weight: 700;
   line-height: 1.25;
   margin-bottom: 15px;
@@ -77,13 +84,13 @@ h3 {
   }
 }
 p {
-  font-family: sans-serif;
+  font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 16px;
   line-height: 23px;
   margin: 0 0 15px;
 }
 a {
-  font-family: sans-serif;
+  font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 16px;
   color: #333333;
 }
@@ -92,7 +99,7 @@ ul {
   margin: 0;
 }
 li {
-  font-family: sans-serif;
+  font-family: 'Raleway', 'Arial', sans-serif;
   font-size: 16px;
   line-height: 23px;
   list-style: none;
@@ -105,7 +112,7 @@ img {
 ======================================== */
 .intro, .content, .footer-related {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 1140px;
   padding: 0 15px;
 }
 .intro:before, .intro:after, .content:before, .content:after, .footer-related:before, .footer-related:after, blockquote:before, blockquote:after {
@@ -135,12 +142,18 @@ header {
 }
 .site-header-left li a {
   text-decoration: none;
+  font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+.logo a {
+  font-size: 1.3em;
 }
 .site-header-left li.logo {
   display: inline-block;
   text-transform: uppercase;
 }
 .site-header-left li.logo a {
+  font-family: 'Barlow Condensed', Arial, sans-serif;
   color: #EB4A34;
 }
 .site-header-left li.logo a span {
@@ -159,6 +172,7 @@ header {
   text-decoration: none;
   margin-left: 20px;
   margin-top: -15px;
+  font-family: 'Raleway', 'Arial', sans-serif;
 }
 
 /* Site Footer */
@@ -178,6 +192,7 @@ header {
   text-align: center;
   text-decoration: none;
   transition: opacity 0.5s ease;
+  padding: 15px 20px;
 }
 .button-primary:hover {
   opacity: 0.75;
@@ -193,31 +208,35 @@ p.tag {
   text-align: center;
   margin: 0 auto 2em;
   border-bottom: 1px solid #44E6CC;
-  width: 150px;
+  width: 120px;
   padding-bottom: 0.25em;
   text-transform: uppercase;
+  font-family: 'Barlow Condensed', Ariel, sans-serif;
+  font-size: 18px;
 }
 .intro {
-  padding: 3em 0;
+  padding: 4.5em 0;
 }
 .intro p {
   width: 90%;
   margin: 0 auto 1em;
   display: block;
+  line-height: 1.6;
 }
 .first-letter {
   float: left;
   padding-right: 10px;
-  font-family: serif;
-  font-size: 7.2em;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 7.3em;
   color: #A2F3E6;
   line-height: 0.8;
+  font-weight: 900;
 }
 .intro a {
   margin: 20px 0 0;
   display: block;
   text-decoration: none;
-  font-weight: 800;
+  font-weight: 900;
   text-transform: uppercase;
   color: #EB4A34;
 }
@@ -238,11 +257,11 @@ p.tag {
   clear: both;
   position: relative;
   top: -5px;
-  font-family: sans-serif;
+  font-family: 'Raleway', 'Arial', sans-serif;
 }
 
 .content {
-  padding: 3em 0;
+  padding: 4.5em 0;
 }
 
 .bio {
@@ -251,6 +270,13 @@ p.tag {
   position: relative;
   margin: 0 auto;
 }
+
+.bio p {
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: italic;
+}
+
 img.bio-avatar {
   border-radius: 100%;
   height: 60px;
@@ -261,6 +287,8 @@ img.bio-avatar {
 }
 .bio-title p {
   display: block;
+  font-style: normal;
+  font-size: 15px;
 }
 .bio-intro {
   text-transform: uppercase;
@@ -282,7 +310,8 @@ img.bio-avatar {
   margin: 2em auto;
 }
 .article-content p {
-
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 blockquote {
@@ -293,7 +322,8 @@ blockquote {
   width: 90%;
 }
 blockquote p {
-  font-family: serif;
+  font-family: 'Playfair Display', Georgia, serif;
+  font-style: italic;
   font-size: 36px;
   line-height: 1.2;
   text-align: left;
@@ -309,9 +339,9 @@ blockquote p:after {
   margin-top:-20px;
 }
 blockquote > footer {
-  font-family: sans-serif;
-  font-size: 14px;
-  font-weight: 700;
+  font-family: 'Barlow Condensed', Arial, sans-serif;
+  font-size: 21px;
+  font-weight: 400;
   text-transform: uppercase;
   text-align: right;
   color: #333;
