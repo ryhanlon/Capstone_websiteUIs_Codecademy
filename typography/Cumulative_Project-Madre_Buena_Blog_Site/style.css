@@ -33,6 +33,7 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   color: #333;
+  background-color: rgba(255, 248, 241, .5);
 }
 .clearfix::after {
   content: " ";
@@ -193,6 +194,7 @@ header {
   text-decoration: none;
   transition: opacity 0.5s ease;
   padding: 15px 20px;
+  border-radius: 5px;
 }
 .button-primary:hover {
   opacity: 0.75;
@@ -336,7 +338,7 @@ blockquote p:after {
   background-color: rgba(162,243,230,0.2);
   display: block;
   z-index: -1;
-  margin-top:-20px;
+  margin-top: 10px;
 }
 blockquote > footer {
   font-family: 'Barlow Condensed', Arial, sans-serif;
