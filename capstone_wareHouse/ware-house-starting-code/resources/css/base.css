@@ -30,6 +30,7 @@ h4 {
 
 }
 
+
 input,
 textarea,
 select {
@@ -49,11 +50,15 @@ select {
 }
 
 .button:hover {
-
-  background-color: Black - hsla(0, 0%, 13%, 1);
+  background-color: hsla(0, 0%, 13%, .7);
+  /*background-color: Black - hsla(0, 0%, 13%, 1);*/
   color: hsla(0, 100%, 100%, 1);
 }
 
+
+.button:active {
+  background-color: darkgreen;
+}
 /* Reusable Component - Image Container */
 
 .image-container {
@@ -77,8 +82,11 @@ select {
 .product-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  margin: 3.75rem 0;
+  margin: 0 0 3.75rem 0;
+  grid-gap: 20px 20px;
 }
+
+
 
 .product-category {
   border-radius: 2px;
@@ -206,6 +214,7 @@ header {
   padding: .75rem 5rem;
   font-size: inherit;
   background-color: hsla(0, 0%, 93%, 1);
+  grid-gap: 20px 0;
 }
 
 .search-bar {
@@ -299,6 +308,7 @@ nav a:active {
 @media only screen and (max-width: 700px) {
   nav {
     grid-template-columns: 1fr;
+    line-height: 2;
   }
 }
 
@@ -341,7 +351,7 @@ footer img {
 
 footer .links {
   display: grid;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 footer .links h4 {
