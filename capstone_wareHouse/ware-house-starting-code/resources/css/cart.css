@@ -84,6 +84,19 @@ input {
   .landing .product-list {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .shopping-cart {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+  .total {
+    grid-column: 2 / 3;
+    grid-row: 4;
+    border-left: none;
+    border-top: 1px solid hsla(0, 0%, 85%, 1);
+  }
+
 }
 
 
@@ -91,4 +104,13 @@ input {
   .landing .product-list {
     grid-template-columns: 1fr;
   }
+
+  .product-list-section {
+  padding: 2rem 0 3.75rem;
+}
+
+  #main {
+    margin: 0;
+  }
+
 }

@@ -36,8 +36,9 @@ form {
 
 .job h4 {
   padding-bottom: .5rem;
-  font-size: inherit;
+  font-size: 1.1rem;
   line-height: 1.2;
+  font-weight: bold;
 }
 
 #see-all-jobs {
@@ -49,19 +50,19 @@ form {
   form {
     grid-template-columns: repeat(3, 1fr);
   }
-  jobs {
-    padding: 3.75rem 0rem 7.5625rem 0rem;
+  .jobs {
+    padding: 3.75rem 2rem 7.5625rem;
   }
 }
 
 
-@media only screen and (max-width: 490px) {
+@media only screen and (max-width: 700px) {
   form {
     grid-template-columns: 1fr;
     justify-items: center;
-    text-align: center;
+    text-align: left;
   }
-  jobs {
-    padding: 3.75rem 5.75rem 7.5625rem 5.75rem;
+  .jobs {
+    padding: 3.75rem 2rem 7.5625rem;
   }
 }
