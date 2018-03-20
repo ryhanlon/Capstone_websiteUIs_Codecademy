@@ -4,8 +4,15 @@
 
 ### By Rebecca York Hanlon - March 20, 2018
 
+##
 
+
+#### Picture of home page for desk top.
 ![Picture of home page](./home_page.png)
+
+#### Picture of home page for mobile .
+![Picture of mobile1](./home-mobile1.png)
+![Picture of mobile2](./home-mobile2.png)
 
 #### Objectives:
 
