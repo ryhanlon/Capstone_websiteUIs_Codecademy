@@ -1,6 +1,6 @@
-#Capstone Project: Warehouse Site
+# Capstone Project: Warehouse Site
 
-##Code Academy: Build Website UI Course
+## Code Academy: Build Website UI Course
 
 ### By Rebecca York Hanlon - March 20, 2018
 
