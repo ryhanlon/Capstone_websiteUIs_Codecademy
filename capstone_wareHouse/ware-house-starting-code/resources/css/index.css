@@ -15,10 +15,10 @@
   padding: 10rem;
   color: hsla(0, 100%, 100%, 1);
   font-family: Helvetica;
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: bold;
   text-align: center;
-  background-color: rgba(0, 0, 0, .2);
+  text-shadow: 1px 1px 50px hsla(40, 100%, 1%, 0.68);
 }
 
 .products {
