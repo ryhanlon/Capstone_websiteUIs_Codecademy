@@ -43,14 +43,14 @@ select {
 
 .button {
   border-radius: 30px;
-  background-color: hsla(0, 0%, 13%, 1);
+  background-color: hsl(49, 100%, 22%);
   text-align: center;
   color: hsla(0, 0%, 93%, 1);
   transition: .25s;
 }
 
 .button:hover {
-  background-color: hsla(0, 0%, 13%, .7);
+  background-color: hsla(49, 100%, 30%, 0.7);
   /*background-color: Black - hsla(0, 0%, 13%, 1);*/
   color: hsla(0, 100%, 100%, 1);
 }
@@ -170,10 +170,11 @@ ul.breadcrumb li {
     align-items: left;
 }
 ul.breadcrumb li+li:before {
-    padding: 2rem;
+    padding: .5rem;
     color: hsla(0, 0%, 29%, 1);
     content: "/\00a0";
 }
+
 ul.breadcrumb li a {
     color: hsla(0, 0%, 29%, 1);
     text-decoration: none;
@@ -190,6 +191,10 @@ ul.breadcrumb li a {
   .product-list {
     grid-template-columns: 1fr;
   }
+  ul.breadcrumb {
+    padding: 2rem 0rem;
+}
+
 }
 
 
@@ -252,7 +257,7 @@ header {
 
 .cart:hover {
   padding: .875rem 2rem;
-  background-color: hsla(0, 0%, 13%, .7);
+  background-color: hsla(49, 100%, 30%, 0.7);
 }
 
 .cart:active {
@@ -268,8 +273,8 @@ nav {
   grid-template-columns: repeat(5, 1fr);
   justify-items: center;
   grid-area: nav;
-  background-color: hsla(0, 0%, 88%, 1);
-  border-top: 1px solid hsla(0, 0%, 85%, 1);
+  background-color: hsla(49, 100%, 22%, .5);
+  border-top: 1px solid hsla(49, 100%, 22%, .5);
   padding: 1.313rem 0 1.313rem 0;
   width: 100vw;
 
@@ -320,7 +325,7 @@ nav a:active {
   justify-items: center;
   text-align: center;
   background-color: hsla(0, 0%, 98%, 1);
-  border-top: 1px solid hsla(0, 0%, 98%, 1);
+  border-top: 1px solid hsla(49, 100%, 22%, .9);
 }
 
 #main h2 {
@@ -399,4 +404,9 @@ footer a:active {
   footer img {
     grid-column: auto;
   }
+
+  ul.breadcrumb {
+  padding: 2rem 0rem;
+    font-size: .8rem;
+}
 }
