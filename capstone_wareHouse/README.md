@@ -5,7 +5,7 @@
 ### By Rebecca York Hanlon - March 20, 2018
 
 
-![Picture of home page](home_page.png)
+![Picture of home page](ware-house-starting-code/home_page.png)
 
 #### Objectives:
 
