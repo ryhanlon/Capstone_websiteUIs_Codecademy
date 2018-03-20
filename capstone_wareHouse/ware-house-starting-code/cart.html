@@ -11,17 +11,17 @@
 
     <!-- Header -->
 
-    <header>
+    <header role="banner" aria-label="site-navigation">
       <div class="image-container">
-        <a href="index.html"><img src="resources/img/home.png"></a>
+        <a href="index.html"><img src="resources/img/home.png" alt="Warehouse logo"></a>
       </div>
       <div class="search-bar">
         <input type="text" name="search" placeholder="Search for items">
-        <a href="" class="icon"><img src="resources/img/search.svg"></a>
+        <a href="" class="icon"><img src="resources/img/search.svg" alt="Search icon of magnifying glass"></a>
       </div>
-      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg"></a>
+      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="Cart icon"></a>
     </header>
-    <nav>
+    <nav role="navigation">
       <a href="deals.html">Today's Deals</a>
       <a href="products.html">Products</a>
       <a href="about.html">About Us</a>
@@ -31,14 +31,14 @@
 
     <!-- Cart -->
 
-    <div id="main" class="product-list-section">
+    <main id="main" class="product-list-section" role="main">
       <h2>Shopping Cart</h2>
 
-    <div class="shopping-cart">
+    <section class="shopping-cart" role="region">
 
         <div class="row">
           <div class="image-container">
-            <img src="resources/img/cart/white-console.jpg">
+            <img src="resources/img/cart/white-console.jpg" alt="White-console">
           </div>
 
           <div class="description">
@@ -54,7 +54,7 @@
 
         <div class="row">
           <div class="image-container">
-            <img src="resources/img/cart/yellow-chair.jpg">
+            <img src="resources/img/cart/yellow-chair.jpg" alt="Yellow chair">
           </div>
 
           <div class="description">
@@ -70,7 +70,7 @@
 
         <div class="row" id="no-border">
           <div class="image-container">
-            <img src="resources/img/cart/wire-stool.jpg">
+            <img src="resources/img/cart/wire-stool.jpg" alt="Two wire-stools">
           </div>
 
           <div class="description">
@@ -91,13 +91,13 @@
         </div>
         <a href="" class="button">Checkout</a>
       </div>
-  </div>
-</div>
+  </section>
+</main>
 
     <!-- Footer -->
 
-    <footer>
-      <img src="resources/img/home.png">
+    <footer role="contentinfo">
+      <img src="resources/img/home.png" alt="Warehouse logo">
       <div class="links">
         <h4>Get to know us</h4>
         <a href="about.html" title="About us">About us</a>

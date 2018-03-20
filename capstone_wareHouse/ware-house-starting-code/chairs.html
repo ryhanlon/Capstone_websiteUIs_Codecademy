@@ -10,17 +10,17 @@
 
     <!-- Header -->
 
-    <header>
+    <header role="banner" aria-label="site-navigation">
       <div class="image-container">
-        <a href="index.html"><img src="resources/img/home.png"></a>
+        <a href="index.html"><img src="resources/img/home.png" alt="Warehouse logo"></a>
       </div>
       <div class="search-bar">
         <input type="text" name="search" placeholder="Search for items">
-        <a href="" class="icon"><img src="resources/img/search.svg"></a>
+        <a href="" class="icon"><img src="resources/img/search.svg" alt="Search icon of magnifying glass"></a>
       </div>
-      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg"></a>
+      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="Cart icon"></a>
     </header>
-    <nav>
+    <nav role="navigation">
       <a href="deals.html">Today's Deals</a>
       <a href="products.html">Products</a>
       <a href="about.html">About Us</a>
@@ -30,19 +30,19 @@
 
     <!-- Chairs Section -->
 
-    <div id="main" class="product-list-section">
+    <main id="main" class="product-list-section" role="main">
       <ul class="breadcrumb">
         <li><a href="products.html">All Products</a></li>
         <li><a href="living.html">Living Room</a></li>
         <li>Chairs</li>
       </ul>
 
-      <div class="product-list">
+      <section class="product-list" role="region">
 
 
         <a href="#" class="product-item">
           <div class="image-container">
-            <img src="resources/img/chairs/basket-chair.jpg">
+            <img src="resources/img/chairs/basket-chair.jpg" alt="Basket chair near side table">
           </div>
           <div class="description">
             <h3>Basket Chair</h3>
@@ -52,7 +52,7 @@
 
         <a href="#" class="product-item">
           <div class="image-container">
-            <img src="resources/img/chairs/orange-chair.jpg">
+            <img src="resources/img/chairs/orange-chair.jpg" alt="Orange chair with pillow">
           </div>
           <div class="description">
             <h3>Orange Chair</h3>
@@ -62,7 +62,7 @@
 
         <a href="#" class="product-item">
           <div class="image-container">
-            <img src="resources/img/chairs/yellow-chair.jpg">
+            <img src="resources/img/chairs/yellow-chair.jpg" alt="Yellow chair between a plant and table">
           </div>
           <div class="description">
             <h3>Yellow Chair</h3>
@@ -72,7 +72,7 @@
 
         <a href="#" class="product-item">
           <div class="image-container">
-            <img src="resources/img/chairs/white-chair.jpg">
+            <img src="resources/img/chairs/white-chair.jpg" alt="White chair near a basket">
           </div>
           <div class="description">
             <h3>White Chair</h3>
@@ -80,13 +80,13 @@
           </div>
         </a>
 
-      </div>
-    </div>
+      </section>
+    </main>
 
     <!-- Footer -->
 
-    <footer>
-      <img src="resources/img/home.png">
+    <footer role="contentinfo">
+      <img src="resources/img/home.png" alt="Warehouse logo">
       <div class="links">
         <h4>Get to know us</h4>
         <a href="about.html" title="About us">About us</a>

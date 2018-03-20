@@ -10,17 +10,17 @@
 
     <!-- Header -->
 
-    <header>
+    <header role="banner" aria-label="site-navigation">
       <div class="image-container">
-        <a href="index.html"><img src="resources/img/home.png"></a>
+        <a href="index.html"><img src="resources/img/home.png" alt="Warehouse logo"></a>
       </div>
       <div class="search-bar">
         <input type="text" name="search" placeholder="Search for items">
-        <a href="" class="icon"><img src="resources/img/search.svg"></a>
+        <a href="" class="icon"><img src="resources/img/search.svg" alt="Search icon of magnifying glass"></a>
       </div>
-      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg"></a>
+      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="Cart icon"></a>
     </header>
-    <nav>
+    <nav role="navigation">
       <a href="deals.html">Today's Deals</a>
       <a href="products.html">Products</a>
       <a href="about.html">About Us</a>
@@ -30,35 +30,35 @@
 
     <!-- Living Room List Section -->
 
-    <div id="main" class="product-list-section">
+    <main id="main" class="product-list-section" role="main">
       <ul class="breadcrumb">
         <li><a href="products.html">All Products</a></li>
         <li>Living Room</li>
       </ul>
 
-      <div class="product-list">
+      <section class="product-list" role="region">
         <a href="sofas.html" class="product-item">
           <div class="image-container">
-            <img src="resources/img/living/sofas.jpg">
+            <img src="resources/img/living/sofas.jpg" alt="Black L shaped sofa">
           </div>
         </a>
         <a href="chairs.html" class="product-item">
           <div class="image-container">
-            <img src="resources/img/living/chairs.jpg">
+            <img src="resources/img/living/chairs.jpg" alt="White chair">
           </div>
         </a>
         <a href="tables.html" class="product-item">
           <div class="image-container">
-            <img src="resources/img/living/tables.jpg">
+            <img src="resources/img/living/tables.jpg" alt="Two living room tables">
           </div>
         </a>
-      </div>
-    </div>
+      </section>
+    </main>
 
     <!-- Footer -->
 
-    <footer>
-      <img src="resources/img/home.png">
+    <footer role="contentinfo">
+      <img src="resources/img/home.png" alt="Warehouse logo">
       <div class="links">
         <h4>Get to know us</h4>
         <a href="about.html" title="About us">About us</a>

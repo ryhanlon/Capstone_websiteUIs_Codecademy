@@ -11,17 +11,17 @@
 
     <!-- Header -->
 
-    <header>
+    <header role="banner" aria-label="site-navigation">
       <div class="image-container">
-        <a href="index.html"><img src="resources/img/home.png"></a>
+        <a href="index.html"><img src="resources/img/home.png" alt="Warehouse logo"></a>
       </div>
       <div class="search-bar">
         <input type="text" name="search" placeholder="Search for items">
-        <a href="" class="icon"><img src="resources/img/search.svg"></a>
+        <a href="" class="icon"><img src="resources/img/search.svg" alt="Search icon of maginifying glass"></a>
       </div>
-      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg"></a>
+      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="Cart icon"></a>
     </header>
-    <nav>
+    <nav role="navigation">
       <a href="deals.html">Today's Deals</a>
       <a href="products.html">Products</a>
       <a href="about.html">About Us</a>
@@ -31,71 +31,71 @@
 
     <!-- Job List Section -->
 
-    <div id="main" class="jobs">
+    <main id="main" class="jobs" role="main">
       <h3>Jobs</h3>
 
       <!-- Job Search Bar -->
 
-      <form>
+      <form role="form">
         <div id="name" class="field">
-          <label for="name">Product Name</label>
-          <input type="text" name="name" placeholder="Name of product">
+          <label for="name">Job Search</label>
+          <input type="text" name="name" placeholder="Enter job name">
         </div>
-        <div id="name" class="field">
-          <label for="name">Product Name</label>
-          <input type="text" name="name" placeholder="Name of product">
-        </div>
+        <!--<div id="name" class="field">-->
+          <!--<label for="name">Product Name</label>-->
+          <!--<input type="text" name="name" placeholder="Name of product">-->
+        <!--</div>-->
         <a href="#" class="button">Go</a>
       </form>
 
       <!-- Recently Posted Job List -->
 
       <h3>Recently Posted</h3>
-      <div class="job-list">
-        <div class="job">
+      <section class="job-list" role="region">
+        <div class="job" aria-label="job-listing">
           <h4>Director, Showroom Experience</h4>
           <span>New York, NY</span>
         </div>
-        <div class="job">
+        <div class="job" aria-label="job-listing">
           <h4>Senior Manager, Showroom Experience</h4>
           <span>New York, NY</span>
         </div>
-        <div class="job">
+        <div class="job" aria-label="job-listing">
           <h4>Executive Assistant</h4>
           <span>New York, NY</span>
         </div>
-        <div class="job">
+        <div class="job" aria-label="job-listing">
           <h4>Marketing Manager, Digital Acquisition</h4>
           <span>New York, NY</span>
         </div>
-        <div class="job">
+        <div class="job" aria-label="job-listing">
           <h4>Seniore Software Engineer</h4>
           <span>New York, NY</span>
         </div>
-        <div class="job">
+        <div class="job" aria-label="job-listing">
           <h4>Principal Researcher</h4>
           <span>New York, NY</span>
         </div>
-        <div class="job">
+        <div class="job" aria-label="job-listing">
           <h4>Software Engineer, Campus Recruiter</h4>
           <span>New York, NY</span>
         </div>
-        <div class="job">
+        <div class="job" aria-label="job-listing">
           <h4>Staff Engineer</h4>
           <span>New York, NY</span>
         </div>
-        <div class="job">
+        <div class="job" aria-label="job-listing">
           <h4>Director of Data Engineering</h4>
           <span>New York, NY</span>
         </div>
-      </div>
+      </section>
       <a href="#" class="button" id="see-all-jobs">See All Open Jobs</a>
-    </div>
+    </main>
 
     <!-- Footer -->
 
-    <footer>
-      <img src="resources/img/home.png">
+    <footer role="contentinfo">
+      <img src="resources/img/home.png" alt="Warehouse logo">
       <div class="links">
         <h4>Get to know us</h4>
         <a href="about.html" title="About us">About us</a>

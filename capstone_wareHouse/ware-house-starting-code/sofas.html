@@ -10,17 +10,17 @@
 
     <!-- Header -->
 
-    <header>
+    <header role="banner">
       <div class="image-container">
-        <a href="index.html"><img src="resources/img/home.png"></a>
+        <a href="index.html"><img src="resources/img/home.png" alt="Warehouse logo"></a>
       </div>
       <div class="search-bar">
         <input type="text" name="search" placeholder="Search for items">
-        <a href="" class="icon"><img src="resources/img/search.svg"></a>
+        <a href="" class="icon"><img src="resources/img/search.svg" alt="Search icon of magnifying glass"></a>
       </div>
-      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg"></a>
+      <a href="cart.html" class="button cart">Cart <img src="resources/img/cart.svg" alt="Cart icon"></a>
     </header>
-    <nav>
+    <nav role="navigation">
       <a href="deals.html">Today's Deals</a>
       <a href="products.html">Products</a>
       <a href="about.html">About Us</a>
@@ -30,17 +30,17 @@
 
     <!-- Sofas Section -->
 
-    <div id="main" class="product-list-section">
+    <main id="main" class="product-list-section" role="main">
       <ul class="breadcrumb">
         <li><a href="products.html">All Products</a></li>
         <li><a href="living.html">Living Room</a></li>
         <li>Sofas</li>
       </ul>
 
-      <div class="product-list">
+      <section class="product-list" role="region">
         <a href="#" class="product-item">
           <div class="image-container">
-            <img src="resources/img/sofas/grey-sofa.jpg">
+            <img src="resources/img/sofas/grey-sofa.jpg" alt="Grey sofa with turquoise pillows">
           </div>
           <div class="description">
             <h3>Grey Sofa</h3>
@@ -50,7 +50,7 @@
 
         <a href="#" class="product-item">
           <div class="image-container">
-            <img src="resources/img/sofas/charcoal-sofa.jpg">
+            <img src="resources/img/sofas/charcoal-sofa.jpg" alt="Charcoal colored leather sofa">
           </div>
           <div class="description">
             <h3>Charcoal Sofa</h3>
@@ -58,9 +58,9 @@
           </div>
         </a>
 
-        <a href="#" class="product-item">
+        <a href="#" class="product-item" aria-label="site-navigation">
           <div class="image-container">
-            <img src="resources/img/sofas/white-sofa.jpg">
+            <img src="resources/img/sofas/white-sofa.jpg" alt="White sofa with pillow">
           </div>
           <div class="description">
             <h3>White Sofa</h3>
@@ -68,13 +68,13 @@
           </div>
         </a>
 
-      </div>
-    </div>
+      </section>
+    </main>
 
     <!-- Footer -->
 
-    <footer>
-      <img src="resources/img/home.png">
+    <footer role="contentinfo">
+      <img src="resources/img/home.png" alt="Warehouse logo">
       <div class="links">
         <h4>Get to know us</h4>
         <a href="about.html" title="About us">About us</a>
